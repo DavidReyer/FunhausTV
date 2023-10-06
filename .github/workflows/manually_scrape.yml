@@ -18,8 +18,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install scrapetube
-          pip install youtubesearchpython
+          pip install scrapetube==2.5.1
+          pip install youtube-search-python==1.6.6
 
       - name: Run Python script
         run: |
