@@ -33,7 +33,7 @@ def download_videos(youtube_id):
 
 
 def load_categories():
-    with open("known_categories.json", "r") as f:
+    with open("scripts/known_categories.json", "r") as f:
         categories = json.load(f)
 
     formatted_cats = {}
@@ -45,7 +45,7 @@ def load_categories():
 
 
 def add_playlist_to_categories(title):
-    with open("known_categories.json", "r") as f:
+    with open("scripts/known_categories.json", "r") as f:
         categories = json.load(f)
 
     if "uncategorized" in categories:
@@ -53,7 +53,7 @@ def add_playlist_to_categories(title):
     else:
         categories["uncategorized"] = [title]
 
-    with open("known_categories.json", "w") as f:
+    with open("scripts/known_categories.json", "w") as f:
         json.dump(categories, f, indent=4)
 
     print(f"Playlist '{title}' not found in known categories, added as uncategorized")
@@ -81,7 +81,7 @@ def run_all():
 
     download_videos(funhaus)
 
-    with open("../public/videos.json", "w") as f:
+    with open("public/videos.json", "w") as f:
         json.dump(i_am_a_database_trust_me_bro, f, indent=4)
 
 
