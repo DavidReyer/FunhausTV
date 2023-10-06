@@ -1,5 +1,5 @@
 
-import { useState } from 'react';
+import {useCallback, useState} from 'react';
 import CategoryAndTagFilter from "@/components/CategoryAndTagFilter";
 import Player from "@/components/Player";
 import VideoQueue from "@/components/VideoQueue";
@@ -19,10 +19,14 @@ interface VideoList {
 export default function Container({videos}: VideoList) {
     const [filteredVideos, setFilteredVideos] = useState<Video[]>([])
 
+    const shuffleVideos = useCallback((videos: Video[]) => {
+        return videos.sort(() => Math.random() - 0.5)
+    }, [])
+
     return (
-        <div className="flex flex-row">
-            <CategoryAndTagFilter videos={videos} setFilteredVideos={setFilteredVideos} />
-            <Player filteredVideos={filteredVideos} setFilteredVideos={setFilteredVideos} />
+        <div className="flex flex-row text-white w-full">
+            <CategoryAndTagFilter videos={videos} setFilteredVideos={setFilteredVideos} shuffleVideos={shuffleVideos} />
+            <Player filteredVideos={filteredVideos} setFilteredVideos={setFilteredVideos} shuffleVideos={shuffleVideos} />
             <VideoQueue filteredVideos={filteredVideos} setFilteredVideos={setFilteredVideos} />
         </div>
     );

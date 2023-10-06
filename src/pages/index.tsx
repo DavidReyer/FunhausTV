@@ -16,7 +16,8 @@ export default function Home() {
     }, []);
 
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between p-24">
+        <main className="min-h-screen p-12 pt-6 bg-fh-background">
+            <h1 className="text-fh-primary text-3xl pb-6">Funhaus TV</h1>
             <Container videos={videos} />
         </main>
     )

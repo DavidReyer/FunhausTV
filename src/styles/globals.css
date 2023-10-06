@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --background-color: #101827;
+    --highlight-color: #F0CC37
+}
+
+@layer utilities {
+    .scrollbar::-webkit-scrollbar {
+
+    }
+
+    .scrollbar::-webkit-scrollbar-track {
+
+        background: var(--background-color);
+    }
+
+    .scrollbar::-webkit-scrollbar-thumb {
+        background: var(--highlight-color);
+
+    }
+
+    .scrollbar::-webkit-scrollbar-thumb:hover {
+        background: var(--highlight-color);
+    }
+}

@@ -28,7 +28,7 @@ export default function VideoQueue({filteredVideos, setFilteredVideos}: VideoQue
     const handleDragStart = (e: React.DragEvent<HTMLDivElement>, index: number, video: Video) => {
         setDraggedIndex(index);
         const dragElement = document.getElementById(`video-card-${video.video_id}`)
-        dragElement && e.dataTransfer?.setDragImage(dragElement, 10, 10)
+        dragElement && e.dataTransfer?.setDragImage(dragElement, 10, 75)
     };
 
     const handleDragEnd = () => {
@@ -37,7 +37,7 @@ export default function VideoQueue({filteredVideos, setFilteredVideos}: VideoQue
 
     const handleDragOver = (e: React.DragEvent<HTMLDivElement>, index: number) => {
         e.preventDefault()
-        console.log("dragoveridx", index)
+        dragOverIndex !== index && setDragOverIndex(index)
     };
 
     const handleDrop = (index: number) => {
@@ -46,13 +46,14 @@ export default function VideoQueue({filteredVideos, setFilteredVideos}: VideoQue
             const [removed] = newVideos.splice(draggedIndex, 1);
             newVideos.splice(index, 0, removed);
             onVideoReorder(draggedIndex, index);
+            setDragOverIndex(undefined)
         }
     };
     return (
-        <div>
-            <h2>Playlist</h2>
-            <div>
-                {filteredVideos.slice(0, 10).map((video, index) => (
+        <div className="right-0 max-h-full px-4 ">
+            <h2 className="text-xl mb-4">Up next:</h2>
+            <div className="overflow-scroll space-y-4">
+                {filteredVideos.slice(0, 8).map((video, index) => (
                     <div
                         key={video.video_id}
                         draggable
@@ -60,13 +61,11 @@ export default function VideoQueue({filteredVideos, setFilteredVideos}: VideoQue
                         onDragEnd={handleDragEnd}
                         onDragOver={(e) => handleDragOver(e, index)}
                         onDrop={() => handleDrop(index)}
-                        className="flex flex-row"
+                        className={`flex flex-row border-fh-primary cursor-grab ${dragOverIndex === index && "border-b-2 pb-2 mb-2"}`}
                     >
-                        <div className="cursor-pointer">
-                            <HiMenuAlt4 />
-                        </div>
+                        <HiMenuAlt4 className="w-8 h-8 my-auto hover:text-fh-primary" />
                         <VideoCard video={video} />
-                        <button onClick={() => onVideoRemove(index)}><RxCross2 /></button>
+                        <button onClick={() => onVideoRemove(index)}><RxCross2 className="w-5 h-5 cursor-pointer my-auto hover:text-red-500" /></button>
                     </div>
                 ))}
             </div>
@@ -77,11 +76,10 @@ export default function VideoQueue({filteredVideos, setFilteredVideos}: VideoQue
 function VideoCard({video}: { video: Video }) {
     return (
         <div className="flex flex-row" id={`video-card-${video.video_id}`}>
-            <div className="">
-                <Image src={`https://img.youtube.com/vi/${video.video_id}/0.jpg`} width={160} height={90} alt={"Thumb"} />
+            <div className="w-28 h-16 relative">
+                <Image src={`https://img.youtube.com/vi/${video.video_id}/0.jpg`} alt={"Thumb"} fill className="object-cover rounded-xl" />
             </div>
-
-            <p>{video.title}</p>
+            <p className="w-72 text-sm p-2">{video.title}</p>
         </div>
     )
 }
