@@ -2,6 +2,7 @@ import {Video} from "@/components/Container";
 import {Dispatch, SetStateAction, useCallback, useEffect, useRef, useState} from "react";
 import {PiCaretDoubleRightDuotone, PiShuffleAngularBold} from "react-icons/pi";
 import YouTube, {YouTubeEvent} from "react-youtube";
+import ReactPlayer from "react-player";
 
 interface PlayerProps {
     filteredVideos: Video[]
@@ -11,7 +12,7 @@ interface PlayerProps {
 
 export default function Player({filteredVideos, setFilteredVideos, shuffleVideos}: PlayerProps) {
     const [currentVideo, setCurrentVideo] = useState<Video>()
-    const playerRef = useRef<YouTube>(null);
+    const [playing, setPlaying] = useState<boolean>(false)
 
     const selectNextVideo = useCallback(() => {
         const nextVideo = filteredVideos.shift()
@@ -22,10 +23,7 @@ export default function Player({filteredVideos, setFilteredVideos, shuffleVideos
     }, [filteredVideos, setFilteredVideos]);
 
     useEffect(() => {
-        const player = playerRef.current
-        if (player) {
-            player.internalPlayer.cueVideoById(currentVideo)
-        }
+        setPlaying(true)
     }, [currentVideo]);
 
     useEffect(() => {
@@ -35,19 +33,6 @@ export default function Player({filteredVideos, setFilteredVideos, shuffleVideos
     const handleShuffleClick = () => {
         setFilteredVideos([...shuffleVideos(filteredVideos)])
     }
-
-    const onPlayerReady = (event: YouTubeEvent) => {
-        event.target.playVideo()
-    };
-
-    const onPlayerStateChange = (event: YouTubeEvent) => {
-        if (event.data === 0) {
-            selectNextVideo()
-        }
-        if (event.data === 5) {
-            event.target.playVideo()
-        }
-    };
 
     const options = {
         height: "100%",
@@ -63,13 +48,20 @@ export default function Player({filteredVideos, setFilteredVideos, shuffleVideos
                 <p>No videos match the selected categories.</p>
             ) : (
                 <div className="grow" id="youtubePlayer">
-                    <YouTube
+                    <ReactPlayer
+                        url={`https://www.youtube.com/watch?v=${currentVideo?.video_id}`}
+                        id="youtube-player"
                         className="w-full h-full"
-                        videoId='mhKOOgRFFlw'
-                        ref={playerRef}
-                        opts={options}
-                        onReady={onPlayerReady}
-                        onStateChange={onPlayerStateChange}
+                        controls
+                        playing={playing}
+                        config={{
+                            youtube: {
+                                playerVars: { autoplay: 1 }
+                            }
+                        }}
+                        onEnded={() => selectNextVideo()}
+                        onPause={() => setPlaying(false)}
+                        onStart={() => setPlaying(true)}
                     />
                 </div>
             )}
@@ -80,14 +72,3 @@ export default function Player({filteredVideos, setFilteredVideos, shuffleVideos
         </div>
     )
 }
-
-/*
-                    <iframe
-                        className="w-full h-full"
-                        width="560"
-                        height="315"
-                        src={`https://www.youtube.com/embed/${currentVideo?.video_id}?autoplay=1`}
-                        allowFullScreen
-                        onEnded={playNextVideo}
-                    ></iframe>
- */
