@@ -1,7 +1,6 @@
 import {Video} from "@/components/Container";
 import {Dispatch, SetStateAction, useCallback, useEffect, useRef, useState} from "react";
 import {PiCaretDoubleRightDuotone, PiShuffleAngularBold} from "react-icons/pi";
-import YouTube, {YouTubeEvent} from "react-youtube";
 import ReactPlayer from "react-player";
 
 interface PlayerProps {
@@ -33,14 +32,6 @@ export default function Player({filteredVideos, setFilteredVideos, shuffleVideos
     const handleShuffleClick = () => {
         setFilteredVideos([...shuffleVideos(filteredVideos)])
     }
-
-    const options = {
-        height: "100%",
-        width: "100%",
-        playerVars: {
-            autoplay: 1,
-        },
-    };
 
     return (
         <div className="grow flex flex-col px-6 pb-20">
