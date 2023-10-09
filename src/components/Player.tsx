@@ -1,5 +1,5 @@
 import {Video} from "@/components/Container";
-import {Dispatch, SetStateAction, useCallback, useEffect, useState} from "react";
+import {Dispatch, SetStateAction, useCallback, useEffect, useRef, useState} from "react";
 import {PiCaretDoubleRightDuotone, PiShuffleAngularBold} from "react-icons/pi";
 import YouTube, {YouTubeEvent} from "react-youtube";
 
@@ -11,8 +11,9 @@ interface PlayerProps {
 
 export default function Player({filteredVideos, setFilteredVideos, shuffleVideos}: PlayerProps) {
     const [currentVideo, setCurrentVideo] = useState<Video>()
+    const playerRef = useRef<YouTube>(null);
 
-    const playNextVideo = useCallback(() => {
+    const selectNextVideo = useCallback(() => {
         const nextVideo = filteredVideos.shift()
         if (nextVideo) {
             setCurrentVideo(nextVideo)
@@ -21,8 +22,15 @@ export default function Player({filteredVideos, setFilteredVideos, shuffleVideos
     }, [filteredVideos, setFilteredVideos]);
 
     useEffect(() => {
-        !currentVideo && playNextVideo()
-    }, [currentVideo, playNextVideo]);
+        const player = playerRef.current
+        if (player) {
+            player.internalPlayer.cueVideoById(currentVideo)
+        }
+    }, [currentVideo]);
+
+    useEffect(() => {
+        !currentVideo && selectNextVideo()
+    }, [currentVideo, selectNextVideo]);
 
     const handleShuffleClick = () => {
         setFilteredVideos([...shuffleVideos(filteredVideos)])
@@ -33,9 +41,11 @@ export default function Player({filteredVideos, setFilteredVideos, shuffleVideos
     };
 
     const onPlayerStateChange = (event: YouTubeEvent) => {
-        //If video state is not undefined (-1), playing (1), paused (2) or buffering (3) play next video
-        if (![-1, 1, 2, 3].includes(event.data)) {
-            playNextVideo()
+        if (event.data === 0) {
+            selectNextVideo()
+        }
+        if (event.data === 5) {
+            event.target.playVideo()
         }
     };
 
@@ -55,7 +65,8 @@ export default function Player({filteredVideos, setFilteredVideos, shuffleVideos
                 <div className="grow" id="youtubePlayer">
                     <YouTube
                         className="w-full h-full"
-                        videoId={currentVideo?.video_id}
+                        videoId='mhKOOgRFFlw'
+                        ref={playerRef}
                         opts={options}
                         onReady={onPlayerReady}
                         onStateChange={onPlayerStateChange}
@@ -64,7 +75,7 @@ export default function Player({filteredVideos, setFilteredVideos, shuffleVideos
             )}
             <div className="flex flex-row justify-between">
                 <div onClick={() => handleShuffleClick()} className="border border-fh-primary px-4 py-2 rounded-xl text-fh-primary my-4 inline-flex">Shuffle Videos <PiShuffleAngularBold className="my-auto ml-2" /></div>
-                <div onClick={() => playNextVideo()} className="border border-fh-primary px-4 py-2 rounded-xl text-fh-primary my-4 inline-flex">Next Video <PiCaretDoubleRightDuotone className="my-auto ml-2" /></div>
+                <div onClick={() => selectNextVideo()} className="border border-fh-primary px-4 py-2 rounded-xl text-fh-primary my-4 inline-flex">Next Video <PiCaretDoubleRightDuotone className="my-auto ml-2" /></div>
             </div>
         </div>
     )
