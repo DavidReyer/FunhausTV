@@ -13,7 +13,7 @@ def download_playlist(playlist_id, tag_name, category):
     for video in videos:
         video_id = video['videoId']
         title = video['title']['runs'][0]['text']
-        length = video['lengthSeconds']
+        length = video['lengthSeconds'] if 'lengthSeconds' in video else 0
         print(f"ID: {video_id} | Category: {category} | Playlist: {tag_name} | Title: {title}")
         i_am_a_database_trust_me_bro.append({"video_id": video_id, "title": title, "category": category, "tag": tag_name, "length": length})
 
