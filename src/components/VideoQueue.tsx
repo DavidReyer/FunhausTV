@@ -50,9 +50,9 @@ export default function VideoQueue({filteredVideos, setFilteredVideos}: VideoQue
         }
     };
     return (
-        <div className="right-0 max-h-full px-4 ">
+        <div className="right-0 px-4 ">
             <h2 className="text-xl mb-4">Up next:</h2>
-            <div className="overflow-scroll space-y-4">
+            <div className="space-y-4">
                 {filteredVideos.slice(0, 8).map((video, index) => (
                     <div
                         key={video.video_id}
