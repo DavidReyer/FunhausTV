@@ -1,5 +1,5 @@
 import {Video} from "@/components/Container";
-import {Dispatch, SetStateAction, useCallback, useEffect, useRef, useState} from "react";
+import {Dispatch, SetStateAction, useCallback, useEffect, useState} from "react";
 import {PiCaretDoubleRightDuotone, PiShuffleAngularBold} from "react-icons/pi";
 import ReactPlayer from "react-player";
 
@@ -34,15 +34,18 @@ export default function Player({filteredVideos, setFilteredVideos, shuffleVideos
     }
 
     return (
-        <div className="grow flex flex-col px-6 pb-20">
+        <div className="grow flex flex-col px-6 pb-40 h-screen">
             {filteredVideos.length === 0 ? (
                 <p>No videos match the selected categories.</p>
             ) : (
+                <>
+                <h2 className="text-xl mb-4">{currentVideo?.title}</h2>
                 <div className="grow" id="youtubePlayer">
                     <ReactPlayer
                         url={`https://www.youtube.com/watch?v=${currentVideo?.video_id}`}
                         id="youtube-player"
-                        className="w-full h-full"
+                        width={'100%'}
+                        height={'100%'}
                         controls
                         playing={playing}
                         config={{
@@ -55,9 +58,11 @@ export default function Player({filteredVideos, setFilteredVideos, shuffleVideos
                         onStart={() => setPlaying(true)}
                     />
                 </div>
+                </>
             )}
             <div className="flex flex-row justify-between">
                 <div onClick={() => handleShuffleClick()} className="border border-fh-primary px-4 py-2 rounded-xl text-fh-primary my-4 inline-flex">Shuffle Videos <PiShuffleAngularBold className="my-auto ml-2" /></div>
+                <p className="my-auto text-fh-primary">{filteredVideos.length} | Videos in Queue</p>
                 <div onClick={() => selectNextVideo()} className="border border-fh-primary px-4 py-2 rounded-xl text-fh-primary my-4 inline-flex">Next Video <PiCaretDoubleRightDuotone className="my-auto ml-2" /></div>
             </div>
         </div>
