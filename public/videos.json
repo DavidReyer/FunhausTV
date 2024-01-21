@@ -1,5 +1,12 @@
 [
     {
+        "video_id": "2_CELfFxK8Q",
+        "title": "We Slice Our Way Through Stray Blade and Blade of Darkness in the Souls Hole",
+        "category": "uncategorized",
+        "tag": "The Souls Hole",
+        "length": "886"
+    },
+    {
         "video_id": "ymVLFJCCIvw",
         "title": "Dominating Some Subs w/ Elyse's Puppet Pals!",
         "category": "uncategorized",
@@ -224,6 +231,13 @@
         "length": "1883"
     },
     {
+        "video_id": "xterh-LP4PU",
+        "title": "Looking Back on the Entire Hitman Series - Crew Commentary Exclusive",
+        "category": "Q&A",
+        "tag": "Crew Commentary",
+        "length": "2688"
+    },
+    {
         "video_id": "kWt6FnzfwsM",
         "title": "Getting Handsy with Sonic and Glover in the Jank Tank",
         "category": "Gameplay",
@@ -392,11 +406,32 @@
         "length": "741"
     },
     {
+        "video_id": "5SUWmctGOwc",
+        "title": "Funhaus VS the Chat - Dark Souls III Crowd Control",
+        "category": "Everything else",
+        "tag": "Livestream Archive",
+        "length": "14926"
+    },
+    {
+        "video_id": "IdBkdYlXt2Q",
+        "title": "Community Legends 15",
+        "category": "Everything else",
+        "tag": "Livestream Archive",
+        "length": "1816"
+    },
+    {
+        "video_id": "O0m9CLSw92E",
+        "title": "James Plays EVERY Sonic Game",
+        "category": "Everything else",
+        "tag": "Livestream Archive",
+        "length": "15311"
+    },
+    {
         "video_id": "xaSygfce3ZA",
         "title": "GTA with the Community!",
         "category": "Everything else",
         "tag": "Livestream Archive",
-        "length": 0
+        "length": "4225"
     },
     {
         "video_id": "DYBTTdmLqoY",
@@ -1071,25 +1106,18 @@
         "length": "14891"
     },
     {
-        "video_id": "pEIq6QvF9sc",
-        "title": "We Torture Ourselves with Mario Games!",
+        "video_id": "T-cb5J9WVbg",
+        "title": "Subdues and Sub-don'ts - Hitman: The Lost Episode (Members Only)",
         "category": "Everything else",
-        "tag": "Livestream Archive",
-        "length": "14531"
+        "tag": "Members Only!!",
+        "length": "529"
     },
     {
-        "video_id": "5tml0z8ooVs",
-        "title": "We Play Scary Games with iamBrandon!",
+        "video_id": "xterh-LP4PU",
+        "title": "Looking Back on the Entire Hitman Series - Crew Commentary Exclusive",
         "category": "Everything else",
-        "tag": "Livestream Archive",
-        "length": "14356"
-    },
-    {
-        "video_id": "45yRVVIo64I",
-        "title": "We Play MORE Resident Evil 4!",
-        "category": "Everything else",
-        "tag": "Livestream Archive",
-        "length": "15064"
+        "tag": "Members Only!!",
+        "length": "2688"
     },
     {
         "video_id": "7mJJHmqEn1g",
@@ -3988,6 +4016,20 @@
         "category": "Gameplay",
         "tag": "Hitman 3",
         "length": "853"
+    },
+    {
+        "video_id": "EdNbHjCJovs",
+        "title": "Hitman's Last Ride (or is it?)",
+        "category": "Gameplay",
+        "tag": "Hitman 3",
+        "length": "867"
+    },
+    {
+        "video_id": "T-cb5J9WVbg",
+        "title": "Subdues and Sub-don'ts - Hitman: The Lost Episode (Members Only)",
+        "category": "Gameplay",
+        "tag": "Hitman 3",
+        "length": "529"
     },
     {
         "video_id": "8Modhgs37VY",
@@ -10290,6 +10332,34 @@
         "length": "1398"
     },
     {
+        "video_id": "9_vJVdxP8Fc",
+        "title": "World Wrestling Funhaus is Back to Chokeslam our Flapjacks!",
+        "category": "Gameplay",
+        "tag": "Gameplay",
+        "length": "852"
+    },
+    {
+        "video_id": "T-cb5J9WVbg",
+        "title": "Subdues and Sub-don'ts - Hitman: The Lost Episode (Members Only)",
+        "category": "Gameplay",
+        "tag": "Gameplay",
+        "length": "529"
+    },
+    {
+        "video_id": "EdNbHjCJovs",
+        "title": "Hitman's Last Ride (or is it?)",
+        "category": "Gameplay",
+        "tag": "Gameplay",
+        "length": "867"
+    },
+    {
+        "video_id": "2_CELfFxK8Q",
+        "title": "We Slice Our Way Through Stray Blade and Blade of Darkness in the Souls Hole",
+        "category": "Gameplay",
+        "tag": "Gameplay",
+        "length": "886"
+    },
+    {
         "video_id": "Ep6C9rSLoCM",
         "title": "Beans, Bunkers, and Birth Coaching w/ Zach Anner",
         "category": "Gameplay",
@@ -10960,34 +11030,6 @@
         "category": "Gameplay",
         "tag": "Gameplay",
         "length": "877"
-    },
-    {
-        "video_id": "Hc--CGihT2E",
-        "title": "Kingdom Karts - Disney SpeedStorm Gameplay",
-        "category": "Gameplay",
-        "tag": "Gameplay",
-        "length": "885"
-    },
-    {
-        "video_id": "-_-o8qOHdRU",
-        "title": "Beers of the Kingdom - Getting Drunk in Zelda TOTK",
-        "category": "Gameplay",
-        "tag": "Gameplay",
-        "length": "890"
-    },
-    {
-        "video_id": "WRtuDqzKhz4",
-        "title": "You, You, You Oughta Know the Lost Games of 1995 | Abandonware Gameplay",
-        "category": "Gameplay",
-        "tag": "Gameplay",
-        "length": "808"
-    },
-    {
-        "video_id": "NJRNFejp0qE",
-        "title": "How To Cheat on Your Wife Like a Real Hard Boiled Flatfoot",
-        "category": "Gameplay",
-        "tag": "Gameplay",
-        "length": "800"
     },
     {
         "video_id": "2ItLhZOLf3Q",
@@ -13867,6 +13909,13 @@
         "length": "943"
     },
     {
+        "video_id": "xterh-LP4PU",
+        "title": "Looking Back on the Entire Hitman Series - Crew Commentary Exclusive",
+        "category": "Everything else",
+        "tag": "Behind the Scenes",
+        "length": "2688"
+    },
+    {
         "video_id": "ALd4rpuY7PE",
         "title": "Crew Commentary: Last Minute Holiday Gift Guide!",
         "category": "Everything else",
@@ -14637,18 +14686,18 @@
         "length": "22"
     },
     {
-        "video_id": "7JwOex3_Kgw",
-        "title": "The Originality of Comic Books",
-        "category": "Everything else",
-        "tag": "Funhaus Shorts",
-        "length": "16"
-    },
-    {
         "video_id": "RAJKKUolpHg",
         "title": "It\u2019s a WORDLE OFF!!",
         "category": "Everything else",
         "tag": "Funhaus Shorts",
         "length": "59"
+    },
+    {
+        "video_id": "7JwOex3_Kgw",
+        "title": "The Originality of Comic Books",
+        "category": "Everything else",
+        "tag": "Funhaus Shorts",
+        "length": "16"
     },
     {
         "video_id": "ruCebpmvXBw",
@@ -14735,6 +14784,13 @@
         "length": "22"
     },
     {
+        "video_id": "sZdP02gmQ-s",
+        "title": "Playing Star Wars games with Star Wars nerds is... an experience",
+        "category": "Everything else",
+        "tag": "Funhaus Shorts",
+        "length": "59"
+    },
+    {
         "video_id": "Az_bU_U19_s",
         "title": "New Evidence in the JFK Assassination Discovered in 2022 100% REAL",
         "category": "Everything else",
@@ -14747,13 +14803,6 @@
         "category": "Everything else",
         "tag": "Funhaus Shorts",
         "length": "8"
-    },
-    {
-        "video_id": "sZdP02gmQ-s",
-        "title": "Playing Star Wars games with Star Wars nerds is... an experience",
-        "category": "Everything else",
-        "tag": "Funhaus Shorts",
-        "length": "59"
     },
     {
         "video_id": "R_McHXScCFk",
@@ -14868,18 +14917,18 @@
         "length": "24"
     },
     {
-        "video_id": "k6t0HllGiQc",
-        "title": "Forcing A Robot To Chug Wine",
-        "category": "Everything else",
-        "tag": "Funhaus Shorts",
-        "length": "39"
-    },
-    {
         "video_id": "mNq6PpRxVuI",
         "title": "Playing games with *that one friend*",
         "category": "Everything else",
         "tag": "Funhaus Shorts",
         "length": "40"
+    },
+    {
+        "video_id": "k6t0HllGiQc",
+        "title": "Forcing A Robot To Chug Wine",
+        "category": "Everything else",
+        "tag": "Funhaus Shorts",
+        "length": "39"
     },
     {
         "video_id": "--QK0qNqqe4",
@@ -15022,18 +15071,18 @@
         "length": "14"
     },
     {
-        "video_id": "AzNZuDoqCMM",
-        "title": "Is Toad underage?",
-        "category": "Everything else",
-        "tag": "Funhaus Shorts",
-        "length": "23"
-    },
-    {
         "video_id": "7ypsJZDK-_c",
         "title": "Jacob Comes In From The Cold",
         "category": "Everything else",
         "tag": "Funhaus Shorts",
         "length": "24"
+    },
+    {
+        "video_id": "AzNZuDoqCMM",
+        "title": "Is Toad underage?",
+        "category": "Everything else",
+        "tag": "Funhaus Shorts",
+        "length": "23"
     },
     {
         "video_id": "3IzJy_8CQP4",
@@ -15134,18 +15183,18 @@
         "length": "22"
     },
     {
-        "video_id": "hWVFZHSI5KE",
-        "title": "Never mix Pepsi and Coke.",
-        "category": "Everything else",
-        "tag": "Funhaus Shorts",
-        "length": "37"
-    },
-    {
         "video_id": "26c5q_vC0Jc",
         "title": "The Worst Image Search We Have Ever Done",
         "category": "Everything else",
         "tag": "Funhaus Shorts",
         "length": "15"
+    },
+    {
+        "video_id": "hWVFZHSI5KE",
+        "title": "Never mix Pepsi and Coke.",
+        "category": "Everything else",
+        "tag": "Funhaus Shorts",
+        "length": "37"
     },
     {
         "video_id": "4tK-mHm8RCc",
@@ -15782,7 +15831,7 @@
         "title": "Demo Disk LIVE #2",
         "category": "Gameplay",
         "tag": "Demo Disk",
-        "length": "3825"
+        "length": "3824"
     },
     {
         "video_id": "iavyVOtI7Fk",
@@ -18548,6 +18597,13 @@
         "category": "Podcasts and Roleplaying",
         "tag": "Dude Soup Podcast",
         "length": "3788"
+    },
+    {
+        "video_id": "Hc--CGihT2E",
+        "title": "Kingdom Karts - Disney SpeedStorm Gameplay",
+        "category": "Uncategorized",
+        "tag": "Uncategorized",
+        "length": 0
     },
     {
         "video_id": "I8hVp2iqhw0",
