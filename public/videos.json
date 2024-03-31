@@ -56,6 +56,13 @@
         "length": "683"
     },
     {
+        "video_id": "n2SVBuYl88k",
+        "title": "We Give Jacob an AI Makeover in Dreamcast Nightmares",
+        "category": "uncategorized",
+        "tag": "Dreamcast Nighmares",
+        "length": "779"
+    },
+    {
         "video_id": "VK7B-i8hryg",
         "title": "We Somehow Made Skyrim Even Uglier - Mod Me, Daddy",
         "category": "uncategorized",
@@ -558,6 +565,20 @@
         "category": "Gameplay",
         "tag": "Playstation Garbage",
         "length": "741"
+    },
+    {
+        "video_id": "p1n5uH7QlCM",
+        "title": "To a Place where Blind Swordsmen See - Elden Ring Coop Randomizer Finale",
+        "category": "Everything else",
+        "tag": "Livestream Archive",
+        "length": "14090"
+    },
+    {
+        "video_id": "6BSaQAX_qcE",
+        "title": "Streamin' with Zach Anner!",
+        "category": "Everything else",
+        "tag": "Livestream Archive",
+        "length": "6364"
     },
     {
         "video_id": "_AxIN8dxYgY",
@@ -1244,20 +1265,6 @@
         "category": "Everything else",
         "tag": "Livestream Archive",
         "length": "15016"
-    },
-    {
-        "video_id": "8lfXaZHGSi0",
-        "title": "Jon Smith vs The World - Crowd Control Dark Souls w/ Ray Narvaez Jr",
-        "category": "Everything else",
-        "tag": "Livestream Archive",
-        "length": "14581"
-    },
-    {
-        "video_id": "3rVaASGB1xw",
-        "title": "Seeking Maidens in Elden Ring Randomizer + Seamless Co Op",
-        "category": "Everything else",
-        "tag": "Livestream Archive",
-        "length": "15110"
     },
     {
         "video_id": "n0wbfYdDhzY",
@@ -10675,6 +10682,20 @@
         "length": "1398"
     },
     {
+        "video_id": "KEWYVb6E4kc",
+        "title": "Synchronized Swindling - One Armed Robber Gameplay",
+        "category": "Gameplay",
+        "tag": "Gameplay",
+        "length": "748"
+    },
+    {
+        "video_id": "n2SVBuYl88k",
+        "title": "We Give Jacob an AI Makeover in Dreamcast Nightmares",
+        "category": "Gameplay",
+        "tag": "Gameplay",
+        "length": "779"
+    },
+    {
         "video_id": "n0wbfYdDhzY",
         "title": "Charlotte Closes Out the Eye Tracker Double Header (Members Exclusive)",
         "category": "Gameplay",
@@ -11359,20 +11380,6 @@
         "category": "Gameplay",
         "tag": "Gameplay",
         "length": "739"
-    },
-    {
-        "video_id": "slq_qYLdTZI",
-        "title": "Going Ears Deep into Star Trek Deep Space Nine(Members Only!) - Demo Wheel",
-        "category": "Gameplay",
-        "tag": "Gameplay",
-        "length": "810"
-    },
-    {
-        "video_id": "xvXceX5eJ8I",
-        "title": "Saturday Morning Cartoons Take a Dark Turn - Demo Wheel",
-        "category": "Gameplay",
-        "tag": "Gameplay",
-        "length": "807"
     },
     {
         "video_id": "2ItLhZOLf3Q",
@@ -15134,18 +15141,18 @@
         "length": "9"
     },
     {
-        "video_id": "RgIKiFFxSZ0",
-        "title": "when you put 0 in dex",
-        "category": "Everything else",
-        "tag": "Funhaus Shorts",
-        "length": "22"
-    },
-    {
         "video_id": "R_McHXScCFk",
         "title": "Sonic's name ISN'T Sonic??? That's just a nickname??",
         "category": "Everything else",
         "tag": "Funhaus Shorts",
         "length": "29"
+    },
+    {
+        "video_id": "RgIKiFFxSZ0",
+        "title": "when you put 0 in dex",
+        "category": "Everything else",
+        "tag": "Funhaus Shorts",
+        "length": "22"
     },
     {
         "video_id": "Az_bU_U19_s",
@@ -15176,13 +15183,6 @@
         "length": "11"
     },
     {
-        "video_id": "bR5YlldJAJw",
-        "title": "concerto for the lady strikes back",
-        "category": "Everything else",
-        "tag": "Funhaus Shorts",
-        "length": "44"
-    },
-    {
         "video_id": "2zcfMHNDZaI",
         "title": "Everyone Loses It, Patrick Screeches",
         "category": "Everything else",
@@ -15190,11 +15190,18 @@
         "length": "10"
     },
     {
-        "video_id": "4klN1pj2o-c",
-        "title": "How they \ud835\ude33\ud835\ude26\ud835\ude22\ud835\ude2d\ud835\ude2d\ud835\ude3a spoke in ancient times",
+        "video_id": "bR5YlldJAJw",
+        "title": "concerto for the lady strikes back",
         "category": "Everything else",
         "tag": "Funhaus Shorts",
-        "length": "22"
+        "length": "44"
+    },
+    {
+        "video_id": "HhRH-I0FDu4",
+        "title": "Predicting Austin Butler's performance in Dune: Part Two",
+        "category": "Everything else",
+        "tag": "Funhaus Shorts",
+        "length": "15"
     },
     {
         "video_id": "Af7rc1NTnUs",
@@ -15204,11 +15211,11 @@
         "length": "25"
     },
     {
-        "video_id": "HhRH-I0FDu4",
-        "title": "Predicting Austin Butler's performance in Dune: Part Two",
+        "video_id": "4klN1pj2o-c",
+        "title": "How they \ud835\ude33\ud835\ude26\ud835\ude22\ud835\ude2d\ud835\ude2d\ud835\ude3a spoke in ancient times",
         "category": "Everything else",
         "tag": "Funhaus Shorts",
-        "length": "15"
+        "length": "22"
     },
     {
         "video_id": "XSjQYjgFd00",
@@ -15281,18 +15288,18 @@
         "length": "39"
     },
     {
-        "video_id": "--QK0qNqqe4",
-        "title": "Do heroes eat \ud83d\udc08?",
-        "category": "Everything else",
-        "tag": "Funhaus Shorts",
-        "length": "12"
-    },
-    {
         "video_id": "ykIrfqZtbrw",
         "title": "Yoda makes everyone die from laughter",
         "category": "Everything else",
         "tag": "Funhaus Shorts",
         "length": "41"
+    },
+    {
+        "video_id": "--QK0qNqqe4",
+        "title": "Do heroes eat \ud83d\udc08?",
+        "category": "Everything else",
+        "tag": "Funhaus Shorts",
+        "length": "12"
     },
     {
         "video_id": "cE4XfGCaDb8",
@@ -15316,15 +15323,15 @@
         "length": "15"
     },
     {
-        "video_id": "DS3gA2GVyks",
-        "title": "How To Hide Your Double Chin When Taking a Photo",
+        "video_id": "v39G0V6WLWE",
+        "title": "Patrick loves stirring that pot...",
         "category": "Everything else",
         "tag": "Funhaus Shorts",
         "length": "15"
     },
     {
-        "video_id": "v39G0V6WLWE",
-        "title": "Patrick loves stirring that pot...",
+        "video_id": "DS3gA2GVyks",
+        "title": "How To Hide Your Double Chin When Taking a Photo",
         "category": "Everything else",
         "tag": "Funhaus Shorts",
         "length": "15"
@@ -15365,6 +15372,20 @@
         "length": "21"
     },
     {
+        "video_id": "YQW29fNb71c",
+        "title": "Ryan Apologizes For Being Offensive",
+        "category": "Everything else",
+        "tag": "Funhaus Shorts",
+        "length": "12"
+    },
+    {
+        "video_id": "9x-IBGXnDtc",
+        "title": "Patrick's Guide To A Positive Workplace",
+        "category": "Everything else",
+        "tag": "Funhaus Shorts",
+        "length": "14"
+    },
+    {
         "video_id": "q0zBIrqb3-g",
         "title": "When God turns his back on you...",
         "category": "Everything else",
@@ -15377,13 +15398,6 @@
         "category": "Everything else",
         "tag": "Funhaus Shorts",
         "length": "18"
-    },
-    {
-        "video_id": "9x-IBGXnDtc",
-        "title": "Patrick's Guide To A Positive Workplace",
-        "category": "Everything else",
-        "tag": "Funhaus Shorts",
-        "length": "14"
     },
     {
         "video_id": "QUtibQbgylw",
@@ -15414,18 +15428,18 @@
         "length": "10"
     },
     {
-        "video_id": "y_5V5LshTLA",
-        "title": "The Beauty of Poorly Restored Art",
-        "category": "Everything else",
-        "tag": "Funhaus Shorts",
-        "length": "14"
-    },
-    {
         "video_id": "7ypsJZDK-_c",
         "title": "Jacob Comes In From The Cold",
         "category": "Everything else",
         "tag": "Funhaus Shorts",
         "length": "24"
+    },
+    {
+        "video_id": "y_5V5LshTLA",
+        "title": "The Beauty of Poorly Restored Art",
+        "category": "Everything else",
+        "tag": "Funhaus Shorts",
+        "length": "14"
     },
     {
         "video_id": "AzNZuDoqCMM",
@@ -15447,13 +15461,6 @@
         "category": "Everything else",
         "tag": "Funhaus Shorts",
         "length": "31"
-    },
-    {
-        "video_id": "YQW29fNb71c",
-        "title": "Ryan Apologizes For Being Offensive",
-        "category": "Everything else",
-        "tag": "Funhaus Shorts",
-        "length": "12"
     },
     {
         "video_id": "lcgIQtLCW8U",
