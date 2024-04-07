@@ -63,6 +63,13 @@
         "length": "779"
     },
     {
+        "video_id": "utXSPXiJEmg",
+        "title": "Goodbye, AI - DreamCast: The Final Nightmare",
+        "category": "uncategorized",
+        "tag": "Dreamcast Nighmares",
+        "length": "784"
+    },
+    {
         "video_id": "VK7B-i8hryg",
         "title": "We Somehow Made Skyrim Even Uglier - Mod Me, Daddy",
         "category": "uncategorized",
@@ -565,6 +572,20 @@
         "category": "Gameplay",
         "tag": "Playstation Garbage",
         "length": "741"
+    },
+    {
+        "video_id": "rJgi9Y-DtIE",
+        "title": "Funhaus Mystery Stream",
+        "category": "Everything else",
+        "tag": "Livestream Archive",
+        "length": "8596"
+    },
+    {
+        "video_id": "Uh6EOcIUkzs",
+        "title": "La Ultima El Matador",
+        "category": "Everything else",
+        "tag": "Livestream Archive",
+        "length": "11046"
     },
     {
         "video_id": "p1n5uH7QlCM",
@@ -1251,20 +1272,6 @@
         "category": "Everything else",
         "tag": "Livestream Archive",
         "length": "10526"
-    },
-    {
-        "video_id": "5TJzhvMb2WI",
-        "title": "Sniffin' for Mysteries in Alan Wake II",
-        "category": "Everything else",
-        "tag": "Livestream Archive",
-        "length": "14700"
-    },
-    {
-        "video_id": "1FQtI8Xulgc",
-        "title": "Life of Pi: The Video Game!",
-        "category": "Everything else",
-        "tag": "Livestream Archive",
-        "length": "15016"
     },
     {
         "video_id": "n0wbfYdDhzY",
@@ -10682,6 +10689,20 @@
         "length": "1398"
     },
     {
+        "video_id": "utXSPXiJEmg",
+        "title": "Goodbye, AI - DreamCast: The Final Nightmare",
+        "category": "Gameplay",
+        "tag": "Gameplay",
+        "length": "784"
+    },
+    {
+        "video_id": "FyaUM0lVLws",
+        "title": "NBA Jam Head to Head: Ryan vs John",
+        "category": "Gameplay",
+        "tag": "Gameplay",
+        "length": "1002"
+    },
+    {
         "video_id": "KEWYVb6E4kc",
         "title": "Synchronized Swindling - One Armed Robber Gameplay",
         "category": "Gameplay",
@@ -11366,20 +11387,6 @@
         "category": "Gameplay",
         "tag": "Gameplay",
         "length": "649"
-    },
-    {
-        "video_id": "owaSNQg4liI",
-        "title": "Drunk, Randy Grandma is Everyone's Favorite Dream Job",
-        "category": "Gameplay",
-        "tag": "Gameplay",
-        "length": "728"
-    },
-    {
-        "video_id": "Mu1s4xpBdvY",
-        "title": "Lemuria is Full of Lovecraftian Love Scenes",
-        "category": "Gameplay",
-        "tag": "Gameplay",
-        "length": "739"
     },
     {
         "video_id": "2ItLhZOLf3Q",
@@ -15365,18 +15372,18 @@
         "length": "15"
     },
     {
-        "video_id": "yFE3jtEgzGo",
-        "title": "it's like a bad tattoo...",
-        "category": "Everything else",
-        "tag": "Funhaus Shorts",
-        "length": "21"
-    },
-    {
         "video_id": "YQW29fNb71c",
         "title": "Ryan Apologizes For Being Offensive",
         "category": "Everything else",
         "tag": "Funhaus Shorts",
         "length": "12"
+    },
+    {
+        "video_id": "yFE3jtEgzGo",
+        "title": "it's like a bad tattoo...",
+        "category": "Everything else",
+        "tag": "Funhaus Shorts",
+        "length": "21"
     },
     {
         "video_id": "9x-IBGXnDtc",
@@ -18954,6 +18961,13 @@
         "category": "Podcasts and Roleplaying",
         "tag": "Dude Soup Podcast",
         "length": "3788"
+    },
+    {
+        "video_id": "Mu1s4xpBdvY",
+        "title": "Lemuria is Full of Lovecraftian Love Scenes",
+        "category": "Uncategorized",
+        "tag": "Uncategorized",
+        "length": 0
     },
     {
         "video_id": "1WrG81fpvH0",
